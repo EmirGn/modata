@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import "react-native-url-polyfill/auto"
-import { supabase } from "./lib/supabase"
-import Login from "./components/Login"
+import { supabase } from "../lib/supabase"
+import Login from "../components/Login"
 import { View, Text, StyleSheet, SafeAreaView } from "react-native"
 import { Session } from "@supabase/supabase-js"
 
